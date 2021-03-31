@@ -1,8 +1,8 @@
 package com.logical.classExamples;
 
 public class Stack {
-	int st[]=new int[10];//10
-	int tos;
+	private int st[]=new int[10];//10
+	private int tos;
 	public Stack() {
 		tos=-1;
 	}
@@ -19,6 +19,9 @@ public class Stack {
 		 }else
 			 return st[tos--];
 		 
+	 }
+	 int size() {
+		 return st.length;
 	 }
 
 	
