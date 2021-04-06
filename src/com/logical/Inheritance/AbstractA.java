@@ -2,6 +2,7 @@ package com.logical.Inheritance;
 
 public abstract class AbstractA {
 	private int var;
+	 int val_n=12;
 	abstract void callme();
 	
 	void callmetoo() {
