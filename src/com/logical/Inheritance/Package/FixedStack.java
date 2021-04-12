@@ -3,6 +3,24 @@ package com.logical.Inheritance.Package;
 public class FixedStack implements IntStack{
 	private int stck[];
 	private int tos;
+	
+	
+	public int[] getStck() {
+		return stck;
+	}
+
+	public void setStck(int[] stck) {
+		this.stck = stck;
+	}
+
+	public int getTos() {
+		return tos;
+	}
+
+	public void setTos(int tos) {
+		this.tos = tos;
+	}
+
 	public FixedStack(int size) {
 		stck=new int[size]; 
 		tos=-1;
